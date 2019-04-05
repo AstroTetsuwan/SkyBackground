@@ -1,5 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+html, body, #sky-background{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
 #sky-background{
-    max-width: 100px;
-    min-height: 100px;
     background: linear-gradient(#00111e 30%, #02273d);
 }

@@ -1,6 +1,6 @@
 .star{
     position: absolute;
-    border-radius: 100%;
+    border-radius: 50%;
     background: white;
     animation: twinkle 2s ease infinite;
 }
