@@ -2,11 +2,14 @@
     position: absolute;
     border-radius: 50%;
     background: white;
+}
+
+.twinkling-star{
     animation: twinkle 2s ease infinite;
 }
 
 @keyframes twinkle {
-    from { opacity: .4; }
+    0% { opacity: .4; }
     50% { opacity: .8; }
-    to { opacity: .4; }
+    100% { opacity: .4; }
 }

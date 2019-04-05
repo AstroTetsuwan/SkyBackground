@@ -4,14 +4,34 @@ import Star from './Star';
 import './SkyBackground.css';
 import ShootingStar from './ShootingStar';
 
-function SkyBackground(props){
+class SkyBackground extends React.Component{
   
+    constructor(props){
+        super(props);
+
+        this.state = {
+            stars: this.getStars(),
+            shootingStars: this.getShootingStars()
+        }
+
+        this.interval = false;
+    }
+
+    componentDidMount(){
+        this.interval = window.setInterval(() => {
+            this.setState({
+                shootingStars: this.getShootingStars()
+            });
+        }, 10000);
+    }
+
+    getStars(){
         let windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         let windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight; 
         let wBlocks = Math.ceil(windowWidth / 100);
         let hBlocks = Math.ceil(windowHeight / 100);
         let stars = [];
-
+    
         for(let i = 0; i < wBlocks; i++){
             for(let j = 0; j < hBlocks; j++){
                 let randomNumberOfStarsInThisBlock = Math.random() * (20 - 10) + 10;
@@ -24,19 +44,33 @@ function SkyBackground(props){
                 }
             }
         }
+    
+        return stars;
+    }
 
-        
-        let shootingStar =  <ShootingStar screenHeight={windowHeight} screenWidth={windowWidth}/>
-
-
-        //ShootingStar will be the ones moving, with a size that increase from 0 to 5 then decrease to 0 when disappearing. (In groups of shootingstars?)
+    getShootingStars(){
+        let shootingStars = [];
+        let randomNumberOfShootingStars = Math.random() * (10 - 5) + 5;
+        for(let i = 0; i < randomNumberOfShootingStars; i++){
+            shootingStars.push(
+                <ShootingStar key={i} id={i} 
+                    topStart={Math.random() * (50 - 20) + 20}  
+                    topLeft={Math.random() * (50 - 20) + 20} 
+                    delay={Math.random() * (5000 - 100) + 100}/>
+            );
+        }
+        return shootingStars;
+    }
+    
+    render(){
 
         return(
             <div id="sky-background">
-                {stars}
-                {shootingStar}
+                {this.state.shootingStars}
+                {this.state.stars}
             </div>
         );
+    }
     
 }
 

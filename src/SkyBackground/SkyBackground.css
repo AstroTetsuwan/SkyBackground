@@ -11,5 +11,9 @@ html, body, #sky-background{
 }
 
 #sky-background{
-    background: linear-gradient(#00111e 30%, #02273d);
+    background: #010101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
