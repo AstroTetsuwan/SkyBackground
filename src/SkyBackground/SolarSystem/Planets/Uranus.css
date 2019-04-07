@@ -1,6 +1,6 @@
 #uranus{
     background: linear-gradient(to bottom left, rgb(149, 240, 240), rgb(35, 62, 63));
-    width: 15px; height: 15px;
+    width: 17px; height: 17px;
     top: calc(50% - 110px); left: calc(50% - 240px); 
     animation: uranus 35s linear 1s infinite;
 }

@@ -1,6 +1,6 @@
 #neptune{
     background: linear-gradient(to bottom left, #4169E1, #191970 60%);
-    width: 14px; height: 14px;
+    width: 16px; height: 16px;
     top: calc(50% - 120px); left: calc(50% - 270px); 
     animation: neptune 40s linear 1s infinite;
 }
