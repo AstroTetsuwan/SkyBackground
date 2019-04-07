@@ -2,7 +2,7 @@
     background: linear-gradient(to top right, rgb(2, 0, 133), #29b1e7 60%);
     width: 10px; height: 10px;
     top: calc(50% - 60px); left: calc(50% - 85px);  
-    animation: earth 14s linear 1s infinite;
+    animation: earth 18s linear 1s infinite;
 }
 #earth div{   
     position: relative;
@@ -45,7 +45,7 @@
     #earth{
         width: 7px; height: 7px;
         top: calc(50% - 38px); left: calc(50% - 45px); 
-        animation: earth-small 14s linear 1s infinite;
+        animation: earth-small 18s linear 1s infinite;
     }
     #earth .clouds{ width: 2px; height: 2px;}
     #earth #clouds-2{ top: 0px; left: 4px; }

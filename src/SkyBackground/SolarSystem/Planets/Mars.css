@@ -2,7 +2,7 @@
     background: linear-gradient(to top right, rgb(97, 0, 0), #941e0e 60%);
     width: 5px; height: 5px;
     top: calc(50% - 60px); left: calc(50% - 100px); 
-    animation: mars 17s linear 1s infinite;
+    animation: mars 21s linear 1s infinite;
 }
 
 @keyframes mars{
@@ -19,7 +19,7 @@
     #mars{
         width: 4px; height: 4px;
         top: calc(50% - 38px); left: calc(50% - 55px); 
-        animation: mars-small 17s linear 1s infinite;
+        animation: mars-small 21s linear 1s infinite;
     }
 }
 

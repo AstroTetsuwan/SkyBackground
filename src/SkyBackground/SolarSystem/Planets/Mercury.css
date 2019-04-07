@@ -2,7 +2,7 @@
     background: linear-gradient(to top right, rgb(197, 9, 9) 20%, #f8cb00); 
     width: 4px; height: 4px;
     top: calc(50% - 40px); left: calc(50% - 40px); 
-    animation: mercury 8s linear 1s infinite;
+    animation: mercury 10s linear 1s infinite;
 }
 
 @keyframes mercury {
@@ -29,6 +29,6 @@
     #mercury{
         width: 3px; height: 3px;
         top: calc(50% - 25px); left: calc(50% - 20px); 
-        animation: mercury-small 8s linear 1s infinite;
+        animation: mercury-small 10s linear 1s infinite;
     }
 }

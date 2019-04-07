@@ -2,7 +2,7 @@
     background: linear-gradient(to top right, rgb(173, 163, 21), #feffbd 60%);
     width: 10px; height: 10px;
     top: calc(50% - 50px); left: calc(50% - 60px);    
-    animation: venus 10s linear 1s infinite;
+    animation: venus 14s linear 1s infinite;
 }
 
 @keyframes venus {
@@ -31,6 +31,6 @@
     #venus{
         width: 7px; height: 7px;
         top: calc(50% - 28px); left: calc(50% - 33px);   
-        animation: venus-small 10s linear 1s infinite;
+        animation: venus-small 14s linear 1s infinite;
     }
 }

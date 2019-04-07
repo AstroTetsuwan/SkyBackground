@@ -2,7 +2,7 @@
     background: linear-gradient(to bottom left, #4169E1, #191970 60%);
     width: 14px; height: 14px;
     top: calc(50% - 120px); left: calc(50% - 270px); 
-    animation: neptune 31s linear 1s infinite;
+    animation: neptune 40s linear 1s infinite;
 }
 
 @keyframes neptune{
@@ -31,6 +31,6 @@
     #neptune{
         width: 10px; height: 10px;
         top: calc(50% - 70px); left: calc(50% - 155px); 
-        animation: neptune-small 31s linear 1s infinite;
+        animation: neptune-small 40s linear 1s infinite;
     }
 }

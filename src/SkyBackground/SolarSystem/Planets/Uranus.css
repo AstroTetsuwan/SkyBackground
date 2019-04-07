@@ -2,7 +2,7 @@
     background: linear-gradient(to bottom left, rgb(149, 240, 240), rgb(35, 62, 63));
     width: 15px; height: 15px;
     top: calc(50% - 110px); left: calc(50% - 240px); 
-    animation: uranus 27s linear 1s infinite;
+    animation: uranus 35s linear 1s infinite;
 }
 
 @keyframes uranus{
@@ -31,6 +31,6 @@
     #uranus{
         width: 10px; height: 10px;
         top: calc(50% - 70px); left: calc(50% - 138px); 
-        animation: uranus-small 27s linear 1s infinite;
+        animation: uranus-small 35s linear 1s infinite;
     }
 }

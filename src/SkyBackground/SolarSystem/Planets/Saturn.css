@@ -4,7 +4,7 @@
     width: 20px; height: 20px;
     top: calc(50% - 90px); left: calc(50% - 200px);    
     transform: rotate(10deg);
-    animation: saturn 23s linear 1s infinite;
+    animation: saturn 30s linear 1s infinite;
 }
 .saturn-rings{ 
     position: relative;
@@ -59,7 +59,7 @@
     #saturn{
         width: 13px; height: 13px;
         top: calc(50% - 55px); left: calc(50% - 115px); 
-        animation: saturn-small 23s linear 1s infinite;
+        animation: saturn-small 30s linear 1s infinite;
     }
 
     #saturn-internal-ring{
