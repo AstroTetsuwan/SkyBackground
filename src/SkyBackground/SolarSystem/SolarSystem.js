@@ -16,10 +16,10 @@ function SolarSystem(props){
                 <Sun/>
                 <Planet name="mercury"/>
                 <Planet name="venus"/>
-                <Earth/>
+                <Planet name="earth"/>
                 <Planet name="mars"/>
                 <Planet name="jupiter"/>
-                <Saturn/>
+                <Planet name="saturn"/>
                 <Planet name="uranus"/>
                 <Planet name="neptune"/>
             </div>
