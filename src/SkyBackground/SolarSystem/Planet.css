@@ -99,20 +99,30 @@
 }
 
 @keyframes jupiter{
-    0%{ transform: translate(0, 0) scale(0.9) rotate(5deg); }
-    10%{ background: linear-gradient(to top right, rgba(0,0,0,.9), rgba(0,0,0,0)),
+    0%{ transform: translate(0, 0) scale(0.95) rotate(5deg); 
+        background: linear-gradient(to top right, rgba(0,0,0,1), rgba(0,0,0,0)),
         linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12));}
-    20%{ background: linear-gradient(to top right, rgba(0,0,0,.8), rgba(0,0,0,0)),
-        linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12)); }
-    30%{ transform: translate(95px, -15px) scale(1); }
-    40%{background: linear-gradient(to top right, rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    10%{ background: linear-gradient(to right, rgba(0,0,0,.9) 20%, rgba(0,0,0,0)),
+        linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12));}
+    20%{ background: linear-gradient(to right, rgba(0,0,0,.8) 40%, rgba(0,0,0,0)),
+        linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12));}
+    30%{ transform: translate(95px, -15px) scale(1); 
+        background: linear-gradient(to right, rgba(0,0,0,.7) 60%, rgba(0,0,0,0)),
+        linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12));}
+    35%{background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+        linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12));}
+    40%{background: linear-gradient(to left, rgba(0,0,0,.9) 50%, rgba(0,0,0,0)),
         linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12));}
     50%{ transform: translate(260px, -30px) scale(0.8)  rotate(-5deg); 
-        background: linear-gradient(to left, rgba(0,0,0,.9), rgba(0,0,0,0)),
+        background: linear-gradient(to left, rgba(0,0,0,.9) 30%, rgba(0,0,0,0)),
         linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12));}
-    60%{ background: linear-gradient(to bottom left, rgba(0,0,0,.7), rgba(0,0,0,0)),
+    60%{ background: linear-gradient(to left, rgba(0,0,0,.9) 10%, rgba(0,0,0,0)),
         linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12)); }
-    100%{ transform: translate(0, 0)  scale(0.8) rotate(5deg);  z-index: -55;}
+    80%{ background: linear-gradient(to right, rgba(0,0,0,.9) 40%, rgba(0,0,0,0)),
+        linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12)); }       
+    100%{ transform: translate(0, 0)  scale(0.9) rotate(5deg);  z-index: -55;
+        background: linear-gradient(to right, rgba(0,0,0,.9) 20%, rgba(0,0,0,0)),
+        linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12));}
 }
 
 #saturn{
