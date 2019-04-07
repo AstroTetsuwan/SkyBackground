@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  './Planet.css';
+import  './Earth.css';
 
 function Earth(props){
     return(
