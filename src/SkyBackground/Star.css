@@ -2,6 +2,7 @@
     position: absolute;
     border-radius: 50%;
     background: white;
+    z-index: -665;
 }
 
 .twinkling-star{

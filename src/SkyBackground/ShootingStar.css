@@ -6,7 +6,6 @@
     background: white;
     box-shadow: 0 0 10px #FFF;
     opacity: 0;
-    
 }
 .tail{
     position: relative;
@@ -16,4 +15,8 @@
     height: 5px;
     background: radial-gradient(ellipse at right, rgb(255, 255, 255) 0%, rgba(38, 38, 51, 0) 50%, #011724 95%);
     transform: rotate(40deg);
+}
+
+.shooting-star, .tail{
+    z-index: -664;
 }

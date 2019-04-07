@@ -1,0 +1,18 @@
+#solar-system-wrapper{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+#solar-system{
+    width: 50vw;
+    height: 25vh;
+}
+
+@media (max-width: 768px){
+    
+    #solar-system{
+        width: 100vw;
+    }
+}

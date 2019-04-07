@@ -11,7 +11,7 @@ class ShootingStar extends React.Component{
     componentDidMount(){
         let star = document.getElementById("star-" + this.props.id);
         let starTop = this.props.topStart,
-            starLeft = this.props.topLeft;
+            starLeft = this.props.leftStart;
         let windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         let windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight; 
 
@@ -40,10 +40,10 @@ class ShootingStar extends React.Component{
 
     render(){
         return(
-                <div className="shooting-star" id={"star-" + this.props.id}>
-                    <div className="tail" id={"tail-" + this.props.id}></div>
-                </div>
-            );
+            <div className="shooting-star" id={"star-" + this.props.id}>
+                <div className="tail" id={"tail-" + this.props.id}></div>
+            </div>
+        );
     }    
 }
 
