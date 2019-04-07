@@ -6,7 +6,7 @@ import Star from './Star';
 import './SkyBackground.css';
 import ShootingStar from './ShootingStar';
 
-import SolarSytem from './SolarSystem/SolarSystem';
+import SolarSystem from './SolarSystem/SolarSystem';
 
 class SkyBackground extends React.Component{
   
@@ -70,7 +70,7 @@ class SkyBackground extends React.Component{
         // then when they go other way, it's inverted, closest is one z index less than the sun,etc...
         return(
             <div id="sky-background">
-                <SolarSytem/>    
+                <SolarSystem/>    
                 {this.state.shootingStars}
                 {this.state.stars}           
             </div>
